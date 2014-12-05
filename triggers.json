@@ -1,0 +1,259 @@
+{
+  "dvd_releases": {
+    "label": "New Movie Released to DVD", 
+    "help_text": "Triggers when a new movie has been released to DVD.", 
+    "noun": "Movie", 
+    "important": true, 
+    "hide": false, 
+    "data_source": "Polling", 
+    "resource_url": "http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json", 
+    "custom_fields_url": null, 
+    "hook_event": null, 
+    "hook_static_directions": "Log into your service and paste the below URL into the webhook setup field.", 
+    "sample_result_fields": [
+      {
+        "type": "unicode", 
+        "key": "abridged_cast"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "alternate_ids__imdb"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "critics_consensus"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "id"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "links__alternate", 
+        "label": "URL"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__cast"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__reviews"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__self"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__similar"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "mpaa_rating"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__detailed"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__original"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__profile"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__thumbnail"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "ratings__audience_rating"
+      }, 
+      {
+        "important": true, 
+        "type": "int", 
+        "key": "ratings__audience_score", 
+        "label": "Audience Rating Score"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "ratings__critics_rating"
+      }, 
+      {
+        "important": true, 
+        "type": "int", 
+        "key": "ratings__critics_score", 
+        "label": "Critics Rating Score (Tomatometer)"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "release_dates__dvd"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "release_dates__theater"
+      }, 
+      {
+        "type": "int", 
+        "key": "runtime"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "synopsis"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "title", 
+        "label": "Title"
+      }, 
+      {
+        "type": "int", 
+        "key": "year"
+      }
+    ], 
+    "fields": {}
+  }, 
+  "opening": {
+    "label": "New Movie In Theater", 
+    "help_text": "Triggers when a new movie has opened in theaters.", 
+    "noun": "Movie", 
+    "important": true, 
+    "hide": false, 
+    "data_source": "Polling", 
+    "resource_url": "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/opening.json", 
+    "custom_fields_url": null, 
+    "hook_event": null, 
+    "hook_static_directions": "Log into your service and paste the below URL into the webhook setup field.", 
+    "sample_result_fields": [
+      {
+        "type": "unicode", 
+        "key": "abridged_cast"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "alternate_ids__imdb"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "critics_consensus"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "id"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "links__alternate", 
+        "label": "URL"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__cast"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__reviews"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__self"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__similar"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "mpaa_rating"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__detailed"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__original"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__profile"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "posters__thumbnail"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "ratings__audience_rating"
+      }, 
+      {
+        "important": true, 
+        "type": "int", 
+        "key": "ratings__audience_score", 
+        "label": "Audience Rating Score"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "ratings__critics_rating"
+      }, 
+      {
+        "important": true, 
+        "type": "int", 
+        "key": "ratings__critics_score", 
+        "label": "Critic Rating Score (Tomatometer)"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "release_dates__theater"
+      }, 
+      {
+        "type": "int", 
+        "key": "runtime"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "synopsis"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "title", 
+        "label": "Title"
+      }, 
+      {
+        "type": "int", 
+        "key": "year"
+      }
+    ], 
+    "fields": {}
+  }, 
+  "root": {
+    "label": "Root URL", 
+    "help_text": "This is the root of the API, showing HATEOAS links to other resources.", 
+    "noun": "", 
+    "important": false, 
+    "hide": true, 
+    "data_source": "Polling", 
+    "resource_url": "http://api.rottentomatoes.com/api/public/v1.0.json", 
+    "custom_fields_url": null, 
+    "hook_event": null, 
+    "hook_static_directions": "Log into your service and paste the below URL into the webhook setup field.", 
+    "sample_result_fields": [
+      {
+        "type": "unicode", 
+        "key": "links__lists"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "links__movies"
+      }
+    ], 
+    "fields": {}
+  }
+}
