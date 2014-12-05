@@ -1,0 +1,12 @@
+{
+  "title": "Rotten Tomatoes Cloned 2014-12-04", 
+  "description": "Rotten Tomatoes offers the most comprehensive collection of movie and TV reviews from professional critics. The world famous Tomatometer rating represents the percentage of professional reviews that are positive for a given film or television show and is often cited as the \"tie breaker\" among decision-challenged couples worldwide. Users may browse movies according to their release schedules in theaters and on DVD.", 
+  "image_url": "https://zapier.cachefly.net/storage/developer/f57937643b1d0f2414aea14a27c6ff8d.png", 
+  "test_trigger_key": "root", 
+  "auth_type": "API Key (Query String)", 
+  "auth_mapping": {
+    "apikey": "{{apikey}}"
+  }, 
+  "subscribe_url": "", 
+  "unsubscribe_url": ""
+}
