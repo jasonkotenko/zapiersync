@@ -1,0 +1,12 @@
+{
+  "apikey": {
+    "label": "API Key", 
+    "required": true, 
+    "help_text": "Your API Key for the [Rotten Tomatoes API](http://developer.rottentomatoes.com/). Go to the [registration page](http://developer.rottentomatoes.com/member/register) to create a Rotten Tomatoes developer account, then check your email for the API Key.", 
+    "default": null, 
+    "choices": null, 
+    "sort": null, 
+    "type": "Unicode", 
+    "input_format": null
+  }
+}
